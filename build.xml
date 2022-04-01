@@ -15,7 +15,7 @@
     <property name="server-dist" value="/opt/wildfly/wildfly/wildfly-10.0.0.Final/standalone/deployments"/>
     -->
 
-	<property name="server-dist" value="C:\dev\wildfly-23.0.0.Final\standalone\deployments\"/>
+	<property name="server-dist" value="C:\dev\wildfly-23.0.0.Final\standalone\deployments"/>
 
 
 		<property name="warfile" value="${server-dist}/StudentDb.war"/>	 

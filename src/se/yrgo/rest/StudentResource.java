@@ -6,8 +6,10 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import java.util.List;
+
 
 @Stateless
 @Path("/students")
@@ -18,7 +20,13 @@ public class StudentResource {
 
     @GET
     @Produces("application/JSON")
+    @Path("{studentNo}")
+    public Student findStudentById(@PathParam("studentNo") int id) {
+    	return service.findStudentById(id);
+    }
+    
     public List<Student> findAllStudents() {
         return service.findAllStudents();
     }
+    
 }
