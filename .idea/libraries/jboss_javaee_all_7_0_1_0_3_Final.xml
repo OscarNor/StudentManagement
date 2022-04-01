@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jboss-javaee-all-7.0-1.0.3.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jboss-javaee-all-7.0-1.0.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
